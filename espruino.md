@@ -1,0 +1,3 @@
+!['Espruino Pico'](espruino.PNG?raw=true)
+
+This is an Espruino Pico. It's a small USB microprocessor that has Javascript built into it. It is a tiny 84MHz computer with 384kb flash storage, and 96kb RAM. It's not much, but it is enough to do some fairly interesting things. It has GPIO pins that can interact with other electrical components like LEDs, buttons, switches, sensors, speakers etc. You can connect it to a wifi module and get it connected to a network and interacting with things over the internet or local network. This one doesn't have the wifi module built in, but it's successor does. There's also the newest one: puck.js it has built-in Bluetooth along with NFC and a few other sensors.
