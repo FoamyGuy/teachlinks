@@ -22,6 +22,6 @@ The pinout graphic may seem a bit overwhelming, but the imporant bits to know fo
 
 The most important info is closest to the circuit traces. The thin black outlined boxes with white background that say things like "B5", "A7", "GND", "3.3" etc. The "3.3" stands for volts and it is the main power pin. Some circuits may use it, but others may not. "GND" stands for ground; all circuits will use it. The ones with "BAT" in the name are only for use with batteries. All other pins have a name comprised of a letter and number. You use this name to refer to the pin in your code to read or write its value (turn it on or off, or if it is PWM set it's output level). So if you connected an LED between pin B5 and GND and then used code like `digitalWrite(B5, 1);` the LED should turn on. _(note: The long leg of the LED is positive, the short leg is negative. So power should come in from the log and flow out to GND through the short.)_
 
-!['LED Circuit'](basic_led_cercuit.PNG?raw=true)
+!['LED Circuit'](basic_led_circuit.PNG?raw=true)
 
 A good first project is to plug in a red, yellow, and green LED to 3 different GPIO pins and write a program to make them behave like traffic lights. Hint: You can use the setTimeout() method to delay changing to the next color light. Once you get that down you can branch out and explore other types of electrical components or more complex projects. You can find many [ideas and examples here](http://www.espruino.com/Tutorials)
